@@ -52,4 +52,16 @@ class Invoice extends Model
     public function invoiceProductDetails() {
         return $this->hasMany(InvoiceDetail::class,'invoice_id','id');
     }
+
+    /* customer  details relation */
+    public function customer()
+    {
+        return $this->belongsTo(Customer::class, 'customer_id');
+    } 
+ 
+     /* order  details relation */
+    public function orders()
+    {
+        return $this->hasMany(Order::class); // Assuming an invoice can have multiple orders
+    }
 }
