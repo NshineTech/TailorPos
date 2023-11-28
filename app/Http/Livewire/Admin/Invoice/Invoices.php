@@ -597,7 +597,7 @@ class Invoices extends Component
 
     /**
      *  purpose   : program to implement Whatsapp Integration 
-     * @author   : harikrishna.nalluri
+     * @author   : harikrishna
      * @method : function to  create sendOrderCreationNotification
      *  @since    : 16-11-2023
      */
