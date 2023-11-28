@@ -65,7 +65,7 @@ class StatusScreen extends Component
 
     /**
      *  purpose   : program to implement Whatsapp Integration  to send delivery notification
-     * @author   : harikrishna
+     * @author   : harikrishna.nalluri
      * @method : function to  create sendReadyForDeliveryNotification
      * @since    : 16-11-2023
      */
